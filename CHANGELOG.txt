@@ -1,0 +1,43 @@
+Version 1.1.0
+=============
+
+Features:
+
+my#
+23    Issues filter form: allow to "exclude" any labels, not just "Closed".
+28    Quick search issue by ID above left menu.
+
+Fixes:
+
+my#
+15    Issues filter form: disable drag-n-drop on labels.
+22    Issues filter form: double-clicking labels works like two single clicks.
+60    (part-done) Dist-file system-dependencies-versions.txt is auto-generated from package names manually specified in cakefile.
+61    Form error on duplicate project name.
+62    Widen SPA_VERSION, check not only in .js on every response, but also in .cpp on every bitstream request.
+63    Don't update browser's URL history on ErrorBox response.
+--    Readable site titles on About page.
+
+
+Version 1.0.1
+=============
+
+Fixes:
+
+my#
+11    HTMLEditor: fixed paste HTML & plain text.
+16    No violet color for a:visited in main menu, lists & toolbars.
+25    Issues list: fullcover background of syslabel <td> because Summary and Labels can occupy >1 line.
+59    Issue change history / description diff: special CSS class for <b>...</b> to avoid clashing with <b> in description itself.
+
+
+Version 1.0
+===========
+
+Features:
+
+- single-user (no logins, no session data);
+- projects/issues (no comments, no git integration);
+- hard-coded simple issue structure: summary, description, type, priority, status, resolution, user-defined labels;
+- EN & RU languages (chosen via config file only; no Accept-Language analysis, no per-user settings because no users);
+- per-project issue search, including full-text search.
