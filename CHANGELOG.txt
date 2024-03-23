@@ -1,3 +1,19 @@
+Version 1.2.0
+=============
+
+Features:
+
+my#
+68    On start, create+chown missing dataDir.
+69    Store Window.scrollY in URL #hash; clicking <th sort> now preserves scrollY i.e. does not scroll to #l.
+
+Fixes:
+
+my#
+74    Reset labelsCache on lang change.
+--    LICENSE: changed name, fixed typos.
+
+
 Version 1.1.0
 =============
 

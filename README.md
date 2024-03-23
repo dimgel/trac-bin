@@ -10,7 +10,7 @@ Started as proof of concept: website written in C++ as nginx module, plus some i
 
 - **Very** small -- distro size is less than 1MB.
 - No heavy dependencies -- besides `glibc` and `gcc-libs` (C++ stdlib), the heaviest dep is [lucene++](https://github.com/luceneplusplus/LucenePlusPlus) fulltext search library which depends on [boost](https://www.boost.org).
-- Easy to setup -- just copy files and add virtual server to `nginx.conf` (see below).
+- Easy to install -- just copy files and add virtual server to `nginx.conf` (see below).
 - **Very** fast & traffic-efficient -- yeah both: just open `F12` / `Network` in your browser, see response sizes & timings -- and try to believe your eyes!
 - Requires no maintenance.
 
@@ -48,14 +48,9 @@ Install required libraries via your package manager. On ArchLinux:
 
      pacman -S expat gcc-libs lucene++ sqlite xxhash zlib
 
-Extract archive. Copy `files` subdir contents to `/`, or anywhere. Just preserve directory structure: I locate `lib` directory as relative to config file path specified in `nginx.conf` (see below).
+Extract archive. Copy `files` subdir contents to `/`, or anywhere. Just preserve directory structure: I locate my `lib/dimgel-trac1` directory as relative to config file path specified in `nginx.conf` (see below).
 
-You don't need to edit config file -- unless your `/var/lib` is on network drive, or you want multiple `nginx` virtual hosts running multiple `trac` instances.
-
-Make sure directory `/var/lib/dimgel-trac1` is writable by `nginx` worker processes. On ArchLinux:
-
-	# mkdir /var/lib/dimgel-trac1
-	# chown http:http /var/lib/dimgel-trac1
+You don't need to edit config file -- unless your `/var/lib` is network-mounted, or you want multiple `nginx` virtual servers running `trac`.
 
 Add to `/etc/nginx/nginx.conf` (here I assume you copied files to `/`):
 

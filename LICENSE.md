@@ -1,4 +1,4 @@
-# dimgel's License 1.0
+# dimgel's Free Closed-Source License 1.0
 
 (c) Dmitry Grigoriev <dimgel@mail.ru>
 
@@ -19,8 +19,8 @@
 
 ## Disclaimer of Warranty
 
-This software does NOT contain any vulnerabilities nor malicious code I'm aware about.
-Still, true paranoid wouldn't trust even his own compiler, not to mention user's one.
+This software does NOT contain any vulnerabilities nor malicious code I'm aware of.
+Still, true paranoid wouldn't trust even his own computer, not to mention user's one.
 So, as copied from MIT License:
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
