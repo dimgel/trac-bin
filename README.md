@@ -16,6 +16,7 @@ Contact: [dimgel@mail.ru](mailto:dimgel@mail.ru])
 - No heavy dependencies -- besides `glibc` and `gcc-libs` (C++ stdlib), the heaviest dep is [lucene++](https://github.com/luceneplusplus/LucenePlusPlus) fulltext search library which depends on [boost](https://www.boost.org).
 - Easy to install -- just copy files and add virtual server to `nginx.conf` (see below).
 - **Very** fast & traffic-efficient -- yeah both: just open `F12` / `Network` in your browser, see response sizes & timings -- and try to believe your eyes!
+- Server-side is CPU and RAM efficient.
 - Requires no maintenance.
 
 ## Features
