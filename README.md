@@ -8,7 +8,7 @@ Started as proof of concept: website written in C++ as nginx module, plus some i
 
 Short presentation (in Russian): [https://youtu.be/Fkqxg-3j4TI](https://youtu.be/Fkqxg-3j4TI)
 
-Contact: [dimgel@mail.ru](mailto:dimgel@mail.ru])
+Contact: [dimgel@mail.ru](mailto:dimgel@mail.ru)
 
 ## Design goals (all achieved)
 
