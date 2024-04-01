@@ -6,6 +6,10 @@ This is **MVP** (minimum viable product), it's even **single-user, for personal 
 
 Started as proof of concept: website written in C++ as nginx module, plus some ideas on webapp efficiency.
 
+Short presentation (in Russian): [https://youtu.be/Fkqxg-3j4TI](https://youtu.be/Fkqxg-3j4TI)
+
+Contact: [dimgel@mail.ru](mailto:dimgel@mail.ru])
+
 ## Design goals (all achieved)
 
 - **Very** small -- distro size is less than 1MB.
