@@ -11,7 +11,7 @@ Short presentation (in Russian): [https://youtu.be/Fkqxg-3j4TI](https://youtu.be
 ## Design goals (all achieved)
 
 - **Very** small -- distro size is less than 1MB.
-- No heavy dependencies -- besides `glibc` and `gcc-libs` (C++ stdlib), the heaviest dep is [lucene++](https://github.com/luceneplusplus/LucenePlusPlus) fulltext search library which depends on [boost](https://www.boost.org).
+- No heavy dependencies -- besides `glibc` and `gcc-libs` (C++ runtime).
 - Easy to install -- just copy files and add virtual server to `nginx.conf` (see below).
 - **Very** fast & traffic-efficient -- yeah both: just open `F12` / `Network` in your browser, see response sizes & timings -- and try to believe your eyes!
 - Server-side is CPU and RAM efficient.
